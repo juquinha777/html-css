@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+/* PALETA DE CORES
+#0B1D51= azul escuro
+#E05263= rosa
+#A8DADC= azul claro
+#FFBF00= amarelo
+#FAD8D6= rosa claro
+*/
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background-image: linear-gradient(to bottom, #a8dadc, #fad8d6);
+}
+main {
+  background-color: white;
+  width: 600px;
+  padding: 10px;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 3px 3px 15px #0b1d51;
+}
+
+h1 {
+  color: #e05263;
+  text-align: center;
+  text-shadow: 1px 1px 0px #d14c5cda;
+}
+h2 {
+  color: #ffbf00;
+}
+p {
+  color: black;
+  text-align: justify;
+}
+div {
+
+  text-align: justify;
+  font-size: 20px;
+  padding: 10px;
+}

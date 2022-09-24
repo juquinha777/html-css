@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+div {
+  display: inline-block;
+  background-color: white;
+  text-align: center;
+  height: 200px;
+  width: 200px;
+  border: 1px solid black;
+}
+
+#d1 {
+  background-color: blueviolet;
+}
+
+#d1:hover {
+  background-color: yellow;
+}
+
+#d2:hover {
+  background-color: blue;
+}
+
+div:hover {
+  color: red;
+}
+
+div > #escondido {
+  display: none;
+}
+
+div:hover > #escondido {
+  display: block;
+  color: white;
+  background-color: red;
+}
+
+.visitado {
+  color: black;
+  text-decoration: none;
+}
+
+.visitado:visited {
+  color: violet;
+}
+
+.visitado:hover {
+  text-decoration: underline;
+  color: darkviolet;
+}
+
+.visitado:active {
+  color: blue;
+}
+.visitado::after {
+  content: "[link]";
+  text-decoration: none;
+  font-weight: normal;
+  color: darkgray;
+}
